@@ -32,5 +32,5 @@ src_prepare() {
 }
 
 src_configure() {
-	econf --with-openssl
+	econf --with-openssl --with-cuse
 }
